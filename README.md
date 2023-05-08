@@ -171,3 +171,4 @@ The recognizable commands by the interpreter are the following:
 
 Abdulazeez Ibrahim | Email: [abdulazeezibrahim](mailto:abdulazeezibrahim847@gmail.com) 
 
+Oluwasegun Oyelola | Email: [delifted](mailto:seguncrown2009@gmail.com)
