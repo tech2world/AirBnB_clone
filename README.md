@@ -11,7 +11,7 @@ The interface of the application is just like the Bash shell except that this ha
 
 This command line interpreter  serves as the frontend of the web app where the users can interact with the backend which was developed with python OOP programming.
 
-Some of the commands available are:
+Some commands available are:
 - show
 - create
 - update
