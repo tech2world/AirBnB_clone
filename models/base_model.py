@@ -4,7 +4,7 @@
 
 import uuid
 from datetime import datetime
-
+from models import storage
 
 class BaseModel:
     """All other classes inherit from the here"""
