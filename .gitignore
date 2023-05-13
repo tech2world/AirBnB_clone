@@ -5,3 +5,5 @@
 .idea/modules.xml
 .idea/inspectionProfiles/Project_Default.xml
 .idea/inspectionProfiles/profiles_settings.xml
+models/__pycache__/__init__.cpython-311.pyc
+*.pyc
