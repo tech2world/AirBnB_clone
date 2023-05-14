@@ -47,3 +47,14 @@ class BaseModel:
         if "_sa_instance_state" in my_dict:
             del my_dict["_sa_instance_state"]
         return my_dict
+
+    @classmethod
+    def dict_to_instance(cls, dictionary):
+        """Creates an instance of the class from a dictionary"""
+        instance = cls()
+        for key, value in dictionary.items():
+            if key != '__class__':
+                if key in ['created_at', 'updated_at']:
+                    value = datetime.strptime(value, '%Y-%m-%dT%H:%M:%S.%f')
+                setattr(instance, key, value)
+        return instance
