@@ -1,5 +1,6 @@
 from models.base_model import BaseModel
 
+
 class User(BaseModel):
     """user class that inherits from BaseModel"""
     email = ""
