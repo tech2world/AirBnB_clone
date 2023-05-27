@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Header, Footer, and Filters Example</title>
+  <link rel="stylesheet" type="text/css" href="styles/4-common.css">
+  <link rel="stylesheet" type="text/css" href="styles/3-header.css">
+  <link rel="stylesheet" type="text/css" href="styles/3-footer.css">
+  <link rel="stylesheet" type="text/css" href="styles/6-filters.css">
+  <link rel="stylesheet" type="text/css" href="styles/100-places.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Logo</div>
+  </header>
+
+  <div class="container">
+    <section class="filters">
+      <div class="locations">
+        <h3>States</h3>
+        <ul class="popover">
+          <li>
+            <h2>State 1</h2>
+            <ul>
+              <li>City 1</li>
+              <li>City 2</li>
+              <li>City 3</li>
+            </ul>
+          </li>
+          <li>
+            <h2>State 2</h2>
+            <ul>
+              <li>City 4</li>
+              <li>City 5</li>
+              <li>City 6</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="amenities">
+        <h3>Amenities</h3>
+        <ul class="popover">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </div>
+      <button class="search-button">Search</button>
+    </section>
+
+    <section class="places">
+      <h1>Places</h1>
+      <article>
+        <h2>Place 1</h2>
+        <div class="price_by_night">$150</div>
+        <div class="information">
+          <div class="max_guest">
+            <div class="icon"></div>
+            <div class="text">Max Guests: 4</div>
+          </div>
+          <div class="number_rooms">
+            <div class="icon"></div>
+            <div class="text">Bedrooms: 2</div>
+          </div>
+          <div class="number_bathrooms">
+            <div class="icon"></div>
+            <div class="text">Bathrooms: 2</div>
+          </div>
+          <div class="user"><b>Owner:</b> Fake Name</div>
+        </div>
+        <div class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget risus vitae mauris aliquam fringilla.
+        </div>
+        <div class="amenities">
+          <h2>Amenities</h2>
+          <ul>
+            <li><span class="icon"></span>Pet friendly</li>
+            <li><span class="icon"></span>TV</li>
+            <li><span class="icon"></span>Wifi</li>
+            <li><span class="icon"></span>Pool</li>
+          </ul>
+        </div>
+        <div class="reviews">
+          <h2>Reviews</h2>
+          <ul>
+            <li>
+              <h3>From Bob Dylan on 27th January 2017</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li>
+              <h3>From John Smith on 15th May 2018</h3>
+              <p>Nulla eget risus vitae mauris aliquam fringilla.</p>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </div>
+
+  <footer>
+    <h2>Best School</h2>
+  </footer>
+
+</body>
+
+</html>
