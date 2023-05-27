@@ -16,8 +16,9 @@ This is a sample HTML page that demonstrates the layout of a webpage with a head
 To use this HTML page, follow these steps:
 
 1. Clone this repository: `https://github.com/tech2world/AirBnB_clone.git`
-2. Open the `index.html` file in your web browser.
-3. Explore the page layout, filters, and search results.
+2. cd to the webstatic directory
+3. Open the `index.html` file in your web browser.
+4. Explore the page layout, filters, and search results.
 
 ## File Structure
 
