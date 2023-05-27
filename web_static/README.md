@@ -18,7 +18,7 @@ To use this HTML page, follow these steps:
 1. Clone this repository: `https://github.com/tech2world/AirBnB_clone.git`
 2. cd to the webstatic directory
 3. Open the `index.html` file in your web browser.
-4. Explore the page layout, filters, and search results.
+4. Explore the page layout.
 
 ## File Structure
 
